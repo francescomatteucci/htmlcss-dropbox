@@ -1,4 +1,4 @@
-/* DEBUG */
+/* UTILITIES */
 * {
     box-sizing: border-box;
     border: none;
@@ -17,14 +17,36 @@ img {
     margin-top: auto;
 }
 
-.margin {
+.margin-20 {
     margin-top: 20px;
     margin-bottom: 20px;
 
 }
+.margintop-20 {
+    margin-top: 20px;
+
+}
+
+button{
+    display: block;
+}
 
 .bill-type {
     padding-left: 20px;
+}
+
+.gap{
+    display:flex;
+    gap:40px;
+}
+
+strong{
+    display:block;
+    padding-bottom:10px;
+}
+
+.padding-200{
+    padding-bottom:100px;
 }
 
 /* HEADER LAYOUT */
@@ -35,6 +57,7 @@ img {
     display: flex;
     align-items: center;
     padding: 20px;
+    
 }
 
 header .logo {
@@ -114,5 +137,31 @@ header .logo {
 .row-sm {
     display: flex;
     width: 1000px;
+   
 
 }
+
+.justify-center{
+    display:flex;
+    justify-content: center;
+}
+
+.col4-12{
+    width:calc(100%/3);
+    border: 1px solid gray;
+    padding:10px;
+    
+}
+.card-head{
+    border: 1px solid gray;
+}
+
+.gray-line{
+    height:40px;
+    width: 52px;
+    display:inline-block;
+    border-bottom:2px solid lightgray;
+    margin-bottom: 20px;
+
+}
+
