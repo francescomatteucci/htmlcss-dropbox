@@ -1,8 +1,10 @@
-/* UTILITIES */
+/* DEBUG */
 * {
     box-sizing: border-box;
     border: none;
 }
+
+/* UTILITIES */
 
 h1 {
     font-size: 100px;
@@ -126,6 +128,8 @@ header .logo {
 .col-65 {
     width: 65%;
 }
+
+/* MAIN's LAYOUT */
 
 .container-sm {
     display: flex;
