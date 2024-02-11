@@ -90,7 +90,7 @@ strong {
 
     display: flex;
     align-items: center;
-    padding: 20px;
+
 
 }
 
@@ -169,7 +169,7 @@ header .logo {
     display: flex;
     width: 100%;
     justify-content: center;
-    border: 2px solid black;
+
 }
 
 .row-sm {
@@ -181,6 +181,13 @@ header .logo {
 .justify-center {
     display: flex;
     justify-content: center;
+}
+
+.col2-12 {
+    display: flex;
+    width: calc(100% / 3);
+    flex-direction: column;
+    padding-right: 40px;
 }
 
 .col4-12 {
@@ -258,9 +265,115 @@ header .logo {
 
 }
 
-.col2-12 {
+
+.col2-12-lg {
     display: flex;
-    width: calc(100% / 3);
+    width: calc(100% / 6 * 4);
     flex-direction: column;
-    padding-right: 40px;
+
+}
+
+.col4-12-lg {
+    display: flex;
+    width: calc(100% / 3 * 4);
+    flex-direction: column;
+    height: 400px;
+    background-color: gray;
+
+}
+
+.img-1 {
+    display: flex;
+    background-color: lightgreen;
+    width: 100%;
+    height: 200px;
+    padding: 60px;
+
+
+}
+
+.img-2 {
+    display: flex;
+    background-color: rgb(0, 110, 255);
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    padding: 60px;
+
+
+}
+
+.img-3 {
+    display: flex;
+    background-color: brown;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    padding: 60px;
+
+
+}
+
+.img-4 {
+    display: flex;
+    background-color: red;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    padding: 60px;
+
+
+}
+
+.img-5 {
+    display: flex;
+    background-color: red;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    padding: 60px;
+
+
+}
+
+.img-6 {
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    padding: 60px;
+
+
+}
+
+.img-7 {
+    display: flex;
+    background-color: lightcyan;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    padding: 60px;
+
+
+}
+
+.img-8 {
+    display: flex;
+    background-color: yellow;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    padding: 60px;
+
+}
+
+.col4-12-lg {
+    padding: 40px;
+
+}
+
+.col4-12-lg img {
+    width: 60%;
+    padding-bottom: 40px;
 }
