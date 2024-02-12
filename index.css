@@ -2,11 +2,14 @@
 * {
     box-sizing: border-box;
     border: none;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
     text-decoration: none;
 }
+
 
 
 /* UTILITIES */
@@ -53,6 +56,10 @@ img {
     padding-bottom: 160;
 }
 
+.brown-text {
+    color: brown;
+}
+
 button {
     display: block;
 }
@@ -83,6 +90,11 @@ strong {
     padding-top: 40px;
 }
 
+.padding-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 /* HEADER LAYOUT */
 
 .container-lg {
@@ -109,12 +121,15 @@ header .logo {
     width: 40%;
     display: flex;
     align-items: center;
+    padding: 20px;
 }
 
 .header-col-2 {
     width: 25%;
     display: flex;
     margin-left: auto;
+
+
 }
 
 .blue-button {
@@ -137,7 +152,7 @@ header .logo {
 }
 
 .container {
-    border: 2px solid black;
+
     display: flex;
     justify-content: center;
     background-color: aqua;
@@ -145,7 +160,7 @@ header .logo {
 }
 
 .row {
-    border: 2px solid black;
+
     display: flex;
     width: 1200px;
 
@@ -155,12 +170,12 @@ header .logo {
     width: 35%;
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+
 }
 
 .col-65 {
     width: 65%;
-    border: 2px solid black;
+
 }
 
 /* MAIN's LAYOUT */
@@ -260,9 +275,10 @@ header .logo {
     width: 200px;
     color: rgb(3, 3, 3);
     margin-top: 40px;
-    border: 2px solid black;
-
-
+    border-top: 1px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
 }
 
 
@@ -376,4 +392,108 @@ header .logo {
 .col4-12-lg img {
     width: 60%;
     padding-bottom: 40px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.black-text {
+    color: black;
+}
+
+.bg-cyan {
+    background-color: cyan;
+}
+
+.container-sm {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.row-sm {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.col12-12-section {
+    width: 100%;
+
+
+
+}
+/* FOOTER's LAYOUT */
+.footer-container {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.row-main-2 {
+
+    min-height: 400px;
+    width: 1200px;
+    display: flex;
+    padding-top: 80px;
+}
+
+.row-main-2 a {
+    color: white;
+}
+
+.col-1-6 {
+    width: calc(100% / 5);
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+hr {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.business-questions {
+    display: flex;
+
+
+}
+
+.dropbox-info {
+    display: flex;
+    padding-left: 200px;
+}
+
+footer a,
+footer h4 {
+    padding-bottom: 20px;
+}
+
+footer hr {
+    width: 120px;
+    border: 1px solid gray;
+    margin-top: 60px;
+
+}
+
+footer i {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer select {
+    background-color: black;
+    color: gray;
 }
